@@ -14,7 +14,7 @@ My custom archetype for my maven project generation, that is based on
 Clone this repo on your local machine:
 
 ```
-git clone
+git clone https://github.com/Lurky-phish-2085/my-quickstart-java-17.git
 ```
 
 `cd` to the directory of the repo and then type:
