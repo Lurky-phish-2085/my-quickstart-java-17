@@ -41,6 +41,10 @@
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
+	<!-- So that my .gitignore file can be included on the archetype -->
+	  <configuration>
+		  <addDefaultExcludes>false</addDefaultExcludes>
+	  </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
