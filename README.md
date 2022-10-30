@@ -8,6 +8,10 @@ My custom archetype for my maven project generation, that is based on
 - `App.java` and `AppTest.java`, were renamed to `Main.java` and `MainTest.java` respectively.
 - Targets Java 17 by default
 - Uses `maven-compiler-plugin` version `3.8.1`
+- Uses `junit-jupiter-api` version `5.8.2`
+- `exec:java` goal is configured to run the Main class
+- configured to create executable `JAR` files
+- has a maven `.gitignore` file
 
 ## Installation
 
@@ -31,7 +35,7 @@ machines. Please, make your own counterpart for your non-UNIX system.
 To generate a new maven project based on my installed archetype, type:
 
 ```
-archetypeGroupId="xyz.lurkyphish2085.archetypes"
+archetypeGroupId="xyz.lurkyphish2085.maven.archetypes"
 archetypeArtifactID='my-quickstart-java-17'
 archetypeVersion='1.0'
 
