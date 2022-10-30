@@ -59,6 +59,9 @@
           <version>3.0.2</version>
 		<configuration>
 			<archive>
+				<manifestEntries>
+					<Built-By>lurky-phish-2085</Built-By>
+				</manifestEntries>
 				<manifest>
 					<addClasspath>true</addClasspath>
 					<classpathPrefix>lib/</classpathPrefix>
