@@ -12,7 +12,7 @@ My custom archetype for my maven project generation, that is based on
 - `exec:java` goal is configured to run the Main class
 - configured to create executable `JAR` files
 - has a maven `.gitignore` file
-- includes my GitHub username on the `Built-By` manifest entry
+- includes my GitHub username on the `Built-By` manifest entry by default
 
 ## Installation
 
