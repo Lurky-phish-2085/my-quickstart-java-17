@@ -27,6 +27,15 @@
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+	<plugin>
+		<!-- executes Main.java if exec:java is typed -->
+		<groupId>org.codehaus.mojo</groupId>
+		<artifactId>exec-maven-plugin</artifactId>
+		<version>3.1.0</version>
+		<configuration>
+			<mainClass>${groupId}.Main</mainClass>
+		</configuration>
+	</plugin>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>
